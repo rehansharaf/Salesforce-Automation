@@ -1,0 +1,8 @@
+[main] 10:15:03,978 INFO  com.salesforce.utils.Log.startTestCase(Log.java:11) - =====================================Verify Successful Login Only TEST START=========================================
+[main] 10:17:55,150 INFO  com.salesforce.utils.Log.startTestCase(Log.java:11) - =====================================Verify Successful Login Only TEST START=========================================
+[main] 10:17:57,801 ERROR com.salesforce.utils.Log.error(Log.java:34) - =====================================verifyLogin_Tc_001 TEST FAILED =========================================
+[main] 10:20:13,143 INFO  com.salesforce.utils.Log.startTestCase(Log.java:11) - =====================================Verify Successful Login Only TEST START=========================================
+[main] 10:20:15,953 ERROR com.salesforce.utils.Log.error(Log.java:34) - =====================================verifyLogin_Tc_001 TEST FAILED =========================================
+[main] 11:02:19,910 INFO  com.salesforce.utils.Log.startTestCase(Log.java:11) - =====================================Verify Successful Login Only TEST START=========================================
+[main] 11:02:20,220 INFO  com.salesforce.utils.Log.endTestCase(Log.java:15) - =====================================Verify Successful Login Only TEST END=========================================
+[main] 11:02:20,223 INFO  com.salesforce.utils.Log.info(Log.java:22) - =====================================verifyLogin_Tc_001 TEST PASSED =========================================

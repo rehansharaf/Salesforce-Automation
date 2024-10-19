@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>dark</theme>
+    
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>http</protocol>
+        
+        <!-- title of the document -->
+        <documentTitle>Project Salesforce</documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>Project Salesforce Report
+         <![CDATA[
+                <img src="https://playful-otter-1o15gi-dev-ed.my.salesforce.com/img/logo214.svg"
+                style="position:absolute;left: -70px;top: 3px;height: 90%;max-width: 20%;"/>
+            ]]>
+        </reportName>
+        
+        <!-- For Base64 Attachment Thumbnails -->
+        <thumbnailForBase64>true</thumbnailForBase64>
+        
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+      
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+            .report-name { padding-left: 18px; } .report-name > img { float: 
+      left;height: 90%;margin-left: 30px;margin-top: 3px;width: auto; }
+        ]]>
+        </styles>
+    </configuration>
+</extentreports>
